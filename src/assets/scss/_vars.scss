@@ -1,0 +1,18 @@
+$primary_bg: #FEFEFE;
+$footer_bg: #444444;
+$footer_bg_gradient: linear-gradient(to bottom, #018CEF, #003A5D);
+$header_bg_gradient: linear-gradient(to top, #018CEF, #003A5D);
+$prise_color: #006CB7;
+$comment_color: #666666;
+
+
+/*Тарифы АстраОтчет*/
+/*Москва*/
+$prise_ao_moscow_osno_baz: 6300; /*ОСНО базовый*/
+$prise_ao_moscow_osno_opt: 10500; /*ОСНО оптимальный*/
+$prise_ao_moscow_usno_baz: 3900; /*УСНО базовый*/
+$prise_ao_moscow_usno_opt: 7000; /*УСНО оптимальный*/
+$prise_ao_moscow_ip_baz: 2900; /*ИП базовый*/
+$prise_ao_moscow_ip_opt: 3900; /*ИП оптимальный*/
+$prise_ao_moscow_gos_baz: 4000; /*Бюджет базовый*/
+$prise_ao_moscow_gos_opt: 7500; /*Бюджет оптимальный*/

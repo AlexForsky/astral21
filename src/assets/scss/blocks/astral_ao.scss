@@ -1,0 +1,178 @@
+.astral_ao__main {
+	margin: 0 auto;
+	line-height: 1.5;
+	padding: 10px;
+	max-width: 1200px;
+}
+
+
+
+
+
+
+
+/*вкладки регионов*/
+.ao__tarif__region { width: 100%; padding: 0px; margin: 0 auto;  text-align: left; }
+.ao__tarif__region>input { display: none; }
+.ao__tarif__region>div {
+    display: none;
+    padding: 12px;
+    /*border: 1px solid #C0C0C0;*/
+    background: #FFFFFF;
+    text-align: left;
+
+}
+
+.ao__tarif__region>span {
+	font-size: 24px;
+}
+
+.ao__tarif__region>label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #CCCCCC;
+    /*border: 1px solid #C0C0C0;*/
+    /*background: $header_bg_gradient/*#E0E0E0;*/
+    cursor: pointer;
+    min-width: 10%;
+    font-size: 24px;
+}
+.ao__tarif__region>input:checked + label {
+    color: #000000;
+    /*border: 1px solid #C0C0C0;
+    border-bottom: 1px solid #FFFFFF;*/
+    background: #FFFFFF;
+}
+
+#ao_region_moscow:checked ~ #ao_moscow_block,
+#ao_region_mo:checked ~ #ao_mo_block,
+#ao_region_tver:checked ~ #ao_tver_block {display: block;}
+
+
+
+
+
+
+
+/*вкладки разделов*/
+
+
+.ao__tarif__tabs { width: 100%; padding: 0px; margin: 0 auto;  text-align: center; }
+.ao__tarif__tabs>input { display: none; }
+.ao__tarif__tabs>div {
+    display: none;
+    padding: 12px;
+    border: 1px solid #C0C0C0;
+    background: #FFFFFF;
+    text-align: left;
+}
+.ao__tarif__tabs>label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #C0C0C0;
+    background: $header_bg_gradient/*#E0E0E0*/;
+    cursor: pointer;
+    min-width: 10%;
+}
+.ao__tarif__tabs>input:checked + label {
+    color: #000000;
+    border: 1px solid #C0C0C0;
+    border-bottom: 1px solid #FFFFFF;
+    background: #FFFFFF;
+}
+#ao_osno_tab:checked ~ #ao_osno_txt,
+#ao_usno_tab:checked ~ #ao_usno_txt,
+#ao_ip_tab:checked ~ #ao_ip_txt,
+#ao_budg_tab:checked ~ #ao_budg_txt,
+#ao_gk_tab:checked ~ #ao_gk_txt { display: block; }
+
+
+/*аккордеон*/
+
+.accordion__tab input, .accordion__tab-content {
+	display: none;
+}
+
+.accordion__tab :checked ~ .accordion__tab-content {
+	display: block;
+}
+
+.accordion__tab-title h4::before {
+	content:" +  ";
+}
+
+.accordion__tab :checked + .accordion__tab-title h4::before {
+	content:" -  ";
+}
+
+.accordion__tab-title {
+	cursor: pointer;
+}
+
+.accordion__tab-title h4 {
+	background: #CCCCCC/*$header_bg_gradient*/;
+	/*color: #FFFFFF;*/
+	min-height: 4rem;
+	padding-top: 2rem;
+	padding-left: 5px;
+}
+
+.accordion__tab :checked + .accordion__tab-title h4 {
+	color: #000000;
+	background: #FFFFFF;
+	min-height: 2rem;
+}
+
+/*Табы тариф Группа компаний АО МО*/ 
+.ao_mo_gk_tabs { width: 100%; padding: 0px; margin: 0 auto;  text-align: center; }
+.ao_mo_gk_tabs>input { display: none; }
+.ao_mo_gk_tabs>div {
+    display: none;
+    padding: 12px;
+    border: 1px solid #C0C0C0;
+    background: #FFFFFF;
+    text-align: left;
+}
+.ao_mo_gk_tabs>label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #C0C0C0;
+    background: $header_bg_gradient/*#E0E0E0*/;
+    cursor: pointer;
+    min-width: 10%;
+}
+.ao_mo_gk_tabs>input:checked + label {
+    color: #000000;
+    border: 1px solid #C0C0C0;
+    border-bottom: 1px solid #FFFFFF;
+    background: #FFFFFF;
+}
+#ao_mo_gk_5-10:checked ~ #ao_mo_gk_5-10_txt,
+#ao_mo_gk_11-20:checked ~ #ao_mo_gk_11-20_txt,
+#ao_mo_gk_21-30:checked ~ #ao_mo_gk_21-30_txt,
+#ao_mo_gk_31-40:checked ~ #ao_mo_gk_31-40_txt,
+#ao_mo_gk_41-50:checked ~ #ao_mo_gk_41-50_txt,
+#ao_mo_gk_51-100:checked ~ #ao_mo_gk_51-100_txt,
+#ao_mo_gk_101:checked ~ #ao_mo_gk_101_txt { display: block; }
+
+.ao__title__gk {
+    text-align: center;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.tarif__return {
+    color: $comment_color;
+	font-size: 1em;
+	font-weight: normal;
+}

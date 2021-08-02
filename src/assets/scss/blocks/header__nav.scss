@@ -1,0 +1,33 @@
+.header__nav {
+	max-width: 1280px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.nav__main-list {
+	display: flex;
+	justify-content: space-around;
+	@media (max-width: 576px) {
+  flex-direction: column;
+	}
+}
+
+.nav__main-item {
+	list-style-type: none;
+	padding-bottom: 7px;
+}
+
+.nav__main-link {
+	text-decoration: none;
+	color: #2984BF;
+}
+
+.link-aktiv {
+	font-weight: 700;
+}
+
+.header__delimiter {
+	margin: 0 7px;
+	height: 1px;
+	background: $header_bg_gradient;
+}

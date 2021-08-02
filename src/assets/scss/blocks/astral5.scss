@@ -1,0 +1,179 @@
+
+.astral5__main {
+	margin: 0 auto;
+	line-height: 1.5;
+	padding: 10px;
+	max-width: 1200px;
+}
+
+
+.astral5__features {
+	display: flex;
+}
+
+.astral5__features-img {
+	max-width: 30%;
+	@media (max-width: 576px) {
+  display: none;
+	}
+}
+
+.astral5__tarif {
+	margin: 10px auto;
+}
+
+.astral5__tarif-title, .astral5__tarif-subtitle {
+	text-align: center;
+}
+
+/* ---------------------------------
+.astral5__tabs {
+  font-size: 0;
+}
+
+.astral5__tabs>input[type="radio"] {
+  display: none;
+}
+-----*/
+
+/*
+.astral5__tabs>div {
+  /* скрыть контент по умолчанию */ /*
+  display: none;
+  border: 1px solid #e0e0e0;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+*/
+/* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+/*
+#tab-btn-ip:checked~#content-ip,
+#tab-btn-ul:checked~#content-ul {
+  display: block;
+
+}
+
+.astral5__tabs>label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  padding: 2px 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+  height: 45px;
+  padding-top: 20px;
+
+}
+
+.astral5__tabs>label:not(:first-of-type) {
+  border-left: none;
+}
+
+.astral5__tabs>input[type="radio"]:checked+label {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+  color: #006CB7;
+  font-weight: bold;
+}
+
+#content-ip, #content-ul {
+	padding-top: 25px;
+}
+
+
+---*/
+
+
+.astral5__tarif-blank {
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 15px auto;
+	max-width: 500px;
+	box-shadow: 1px 1px 5px 1px grey;
+}
+
+
+.blank__part {
+	
+	display: flex;
+	justify-content: space-between;
+	@media (max-width: 576px) {
+  	flex-direction: column;
+		}
+	}
+
+	.blank__deskription {
+		padding: 20px 0;
+	}
+
+	.blank__title {
+		font-size: 1.7rem;
+	}
+
+	.blank__price {
+		font-size: 1.7rem;
+		color: $prise_color;
+	}
+
+	.blank__period {
+		border: 1px solid #E0E0E0;
+		border-radius: 5px;
+		padding: 14px 5px 0 5px;
+		width: 35%;
+		height:40px;
+		text-align: center;
+		@media (max-width: 576px) {
+  	width: 90%;
+  	margin-bottom: 10px;
+		}
+	}
+
+	.blank__link {
+		text-decoration: none;
+		background: #0074C6;
+		border: 1px solid #0074C6;
+		border-radius: 5px;
+		padding: 14px 5px 0 5px;
+		color: #fff;
+		width: 35%;
+		height:40px;
+		text-align: center;
+		box-shadow: 2px 2px 5px 2px grey;
+		@media (max-width: 576px) {
+  	width: 90%;
+		}
+	}
+
+	.blank__link:hover {
+		box-shadow: 5px 5px 8px 4px grey;
+	}
+
+	.blank__link:active {
+		box-shadow: 2px 2px 5px 2px grey;
+	}
+
+	.tarif__content {
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+/*
+	section {
+		height: 100vh;
+	}
+*/
+
+.astral5__divided {
+	margin-top: 25px;
+	height: 1px;
+	background: grey;
+}
+

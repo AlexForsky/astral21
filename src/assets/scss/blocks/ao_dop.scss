@@ -1,0 +1,42 @@
+.ao__dop {
+	margin: 0 auto;
+	line-height: 1.5;
+	padding: 10px;
+	max-width: 1200px;
+}
+
+.ao__dop-text {
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+.ao__dop-text-list {
+	list-style-type: decimal;
+}
+
+.ao__rash-text-list {
+	list-style-type: square;
+	line-height: 1.8;
+}
+
+
+
+.ao__rash-text-list span {
+	color: $prise_color;
+	font-size: 1.5em;
+	
+}
+
+.tarif__title__comment {
+	color: $comment_color;
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+.tarif__price__comment {
+	font-size: 1.3em;
+}
+
+.tarif__price_text {
+	font-size: 1.2em;
+}
